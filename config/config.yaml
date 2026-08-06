@@ -1,0 +1,22 @@
+workspace:
+  db_path: "db/eval_history.db"
+
+runner:
+  max_concurrent_calls: 5
+  retry_attempts: 3
+  retry_backoff_factor: 2.0
+
+eval_model:
+  provider: "anthropic"
+  model_name: "claude-3-5-sonnet-20241022"
+  base_url: null
+
+judge_model:
+  provider: "anthropic"
+  model_name: "claude-3-5-sonnet-20241022"
+  base_url: null
+
+generator_model:
+  provider: "anthropic"
+  model_name: "claude-3-5-sonnet-20241022"
+  base_url: null

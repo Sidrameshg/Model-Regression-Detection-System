@@ -1,0 +1,5 @@
+# Scoring weights. Must sum to exactly 1.0.
+relevance: 0.3
+attribution: 0.4
+specificity: 0.2
+format_validity: 0.1

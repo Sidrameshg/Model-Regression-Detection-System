@@ -1,0 +1,11 @@
+# Decision gates and scoring thresholds
+attribution_floor: 0.3
+attribution_threshold: 0.6
+specificity_threshold: 0.5
+
+# Cost-aware LLM judge band
+uncertain_zone_low: 0.45
+uncertain_zone_high: 0.65
+
+# Statistical significance
+significance_alpha: 0.05

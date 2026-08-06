@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Databases
+db/eval_history.db
+
+# Logs
+*.log
+
+# Streamlit/OS
+.streamlit/
+.DS_Store
+Thumbs.db
